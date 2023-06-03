@@ -1,6 +1,6 @@
 import React from "react"
 
-const CustomButton = ({ text, type = "PRIMARY", onClick = null }) => {
+const CustomButton = ({ text, type = "BLACK", onClick = null }) => {
 	const styles = {
 		button: {
 			paddingBlock: 18,
