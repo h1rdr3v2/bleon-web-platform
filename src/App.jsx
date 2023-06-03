@@ -1,13 +1,13 @@
 import React from "react"
-import CustomButton from "./components/CustomButton"
 import Navbar from "./components/Navbar"
-
+import ServicesSection from "./components/Services/ServicesSection"
+import Team from "./components/team/Team"
 const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<h1>React App</h1>
-			<CustomButton text={"Talk to An expert"} />
+			<ServicesSection />
+			<Team />
 		</div>
 	)
 }
