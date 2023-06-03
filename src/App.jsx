@@ -7,6 +7,7 @@ const App = () => {
 		<div>
 			<h1>React App</h1>
 			<CustomButton text={"Talk to An expert"} />
+			<Navbar />
 		</div>
 	)
 }
