@@ -11,3 +11,6 @@
     height: 130px;
     background-color: white
 }
+.container{
+    padding-inline: 75px;
+}
