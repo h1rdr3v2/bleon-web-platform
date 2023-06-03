@@ -16,6 +16,7 @@ const CustomButton = ({ text, type = "BLACK", onClick = null }) => {
 			backgroundColor: "transparent",
 			borderColor: "#ff6600",
 			border: "1px solid #ff6600",
+			color:"white"
 		},
 		BLACK: {
 			backgroundColor: "black",
