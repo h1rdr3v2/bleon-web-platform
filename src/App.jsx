@@ -1,6 +1,6 @@
 import React from "react"
 import CustomButton from "./components/CustomButton"
-import Navbar from "./Navbar"
+import Navbar from "./components/Navbar"
 
 const App = () => {
 	return (
