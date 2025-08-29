@@ -1,120 +1,194 @@
-# Bleon Web Platform
+# Bleon Co Ltd - Technology Solutions Portfolio
 
-> A modern, interactive web platform for Bleon - showcasing our development expertise and consultancy services with a creative, professional approach.
-
-[![Next.js](https://img.shields.io/badge/Next.js-13+-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+A modern, responsive portfolio website showcasing Bleon Co Ltd's technology services, VTU solutions, and featured projects. Built with Next.js 15, React 19, and Tailwind CSS.
 
 ## 🚀 Overview
 
-This is the next-generation web platform for Bleon, a technology company specializing in development and consultancy services. Built with modern web technologies, this platform represents a significant upgrade from our existing website, designed to better showcase our capabilities and engage with our clients.
+Bleon Co Ltd is a leading technology company based in Umuahia, Abia State, Nigeria, specializing in innovative digital solutions, VTU services, and cutting-edge technology services. This portfolio website serves as a comprehensive showcase of our capabilities and completed projects.
 
 ## ✨ Features
 
-- **Modern Design**: Creative and professional interface that reflects our brand
-- **Responsive Layout**: Seamless experience across all devices
-- **Performance Optimized**: Built with Next.js for optimal loading speeds
-- **Interactive Elements**: Engaging user experience with smooth animations
-- **Scalable Architecture**: Prepared for future backend integration
-- **SEO Optimized**: Enhanced search engine visibility
+### Core Services
+- **VTU Services** - Reliable airtime and data services for all networks
+- **Web Development** - Custom websites and web applications
+- **Cybersecurity** - Comprehensive security solutions
+- **Digital Transformation** - End-to-end modernization services
+- **IT Consulting** - Strategic technology consulting
+- **Data Analytics** - Business intelligence solutions
+- **Payment Solutions** - Secure financial technology
+- **Chatbot Development** - Intelligent automation solutions
+
+### Featured Projects
+- **MyCGPA** - Comprehensive GPA calculator and academic management tool
+- **AirlyPay** - Advanced VTU service platform with innovative giveaway features
+
+### Technical Features
+- Responsive design optimized for all devices
+- Smooth animations and transitions using Framer Motion
+- Modern UI/UX with Tailwind CSS
+- SEO optimized with Next.js metadata
+- Fast performance with Next.js 15 and Turbopack
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18+ with Next.js 13+
-- **Styling**: Tailwind
-- **TypeScript**: For type-safe development
-- **Deployment**: Self-hosted infrastructure
-- **Future**: Backend integration planned
+- **Framework**: Next.js 15.5.2
+- **Language**: TypeScript 5
+- **UI Library**: React 19.1.0
+- **Styling**: Tailwind CSS 3.4.17
+- **Animations**: Framer Motion 12.23.12
+- **Icons**: Lucide React 0.542.0
+- **Development**: ESLint, Turbopack
 
-## 🏃‍♂️ Getting Started
+## 📁 Project Structure
+
+```
+bleon-nextjs/
+├── src/
+│   ├── app/                    # Next.js app directory
+│   │   ├── airlypay/          # AirlyPay project pages
+│   │   ├── mycgpa/            # MyCGPA project pages
+│   │   ├── globals.css        # Global styles
+│   │   ├── layout.tsx         # Root layout
+│   │   └── page.tsx           # Home page
+│   └── components/            # Reusable components
+│       ├── About.tsx          # About section
+│       ├── AnimatedWrapper.tsx # Animation wrapper
+│       ├── Contact.tsx        # Contact section
+│       ├── Footer.tsx         # Footer component
+│       ├── Hero.tsx           # Hero section
+│       ├── Navbar.tsx         # Navigation
+│       └── Services.tsx       # Services showcase
+├── public/                    # Static assets
+├── package.json               # Dependencies
+└── tailwind.config.js        # Tailwind configuration
+```
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 18+ 
 - npm or yarn
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/h1rdr3v2/bleon-web-platform.git
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd bleon-nextjs
+   ```
 
-# Navigate to project directory
-cd bleon-web-platform
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-# Install dependencies
-npm install
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# Start development server
-npm run dev
-```
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+### Available Scripts
 
-## 🚀 Development
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build for production with Turbopack
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-```bash
-# Development server
-npm run dev
+## 🌟 Key Components
 
-# Build for production
-npm run build
+### Hero Section
+- Compelling headline with gradient text effects
+- Company statistics (500+ clients, 1000+ projects, 24/7 support)
+- Call-to-action buttons
+- Animated background patterns
 
-# Start production server
-npm start
+### Services Showcase
+- Grid layout of 8 core services
+- Interactive hover effects
+- Icon-based visual representation
+- Detailed service descriptions
 
-# Run linting
-npm run lint
-```
+### Featured Projects
+- **MyCGPA**: Academic management tool with GPA calculation
+- **AirlyPay**: VTU platform with giveaway features
+- Project-specific landing pages
+- Feature highlights and contact information
 
-## 📁 Project Structure
+### Navigation & Layout
+- Responsive navigation bar
+- Smooth scrolling between sections
+- Mobile-optimized design
+- Consistent branding throughout
 
-```
-bleon-web-platform/
-├── components/          # Reusable UI components
-├── pages/              # Next.js pages
-├── styles/             # Global styles and themes
-├── public/             # Static assets
-├── lib/                # Utility functions
-├── hooks/              # Custom React hooks
-└── types/              # TypeScript type definitions
-```
+## 🎨 Design Features
 
-## 🤝 Contributing
+- **Color Scheme**: Blue and purple gradients with professional grays
+- **Typography**: Inter font family for modern readability
+- **Animations**: Smooth scroll animations and hover effects
+- **Responsiveness**: Mobile-first design approach
+- **Accessibility**: Semantic HTML and proper contrast ratios
 
-We welcome contributions from our team! Please follow these steps:
+## 📱 Responsive Design
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+The website is fully responsive and optimized for:
+- Desktop (1200px+)
+- Tablet (768px - 1199px)
+- Mobile (320px - 767px)
 
-### Team Members
-- **Grace Ndimele** - Developer
+## 🔧 Customization
+
+### Adding New Services
+Edit `src/components/Services.tsx` to add new services to the grid.
+
+### Adding New Projects
+1. Create a new project page in `src/app/`
+2. Add project details to the projects array in `Services.tsx`
+3. Update navigation if needed
+
+### Styling Changes
+- Modify `tailwind.config.js` for theme customization
+- Edit `src/app/globals.css` for global styles
+- Update component-specific styles in individual component files
+
+## 📊 Performance
+
+- **Lighthouse Score**: Optimized for performance, accessibility, and SEO
+- **Core Web Vitals**: Fast loading and smooth interactions
+- **Bundle Size**: Optimized with Next.js 15 and Turbopack
+- **Image Optimization**: Next.js Image component for optimal delivery
+
+## 📞 Contact & Support
+
+- **Company**: Bleon Co Ltd
+- **Location**: Umuahia, Abia State, Nigeria
+- **Email**: support@bleon.co
 
 ## 📄 License
 
-This project is proprietary software owned by Bleon. All rights reserved.
+This project is proprietary software owned by Bleon Co Ltd. All rights reserved.
 
-## 🔗 Links
+## 🤝 Contributing
 
-- **Current Website**: https://bleon.co
-- **Company**: BLEON CO LTD
-- **Contact**: [Mail](mailto:suport@bleon.co), Abia State Umuahia.
+This is a company portfolio website. For business inquiries or collaboration opportunities, please contact us through the channels listed above.
 
-## 🎯 Roadmap
+## 📈 Future Enhancements
 
-- [x] Initial Next.js setup
-- [x] Modern UI/UX design implementation
-- [ ] Content management system
-- [ ] Backend API integration
-- [ ] User authentication
-- [ ] Analytics dashboard
-- [ ] Performance optimization
-- [ ] SEO enhancements
+- Blog section for company updates
+- Client testimonials and case studies
+- Interactive project demos
+- Multi-language support
+- Advanced analytics dashboard
+- E-commerce integration for services
 
 ---
 
-**Built with ❤️ by the Bleon team**
+**Built with ❤️ by Bleon Co Ltd**
+
+*Transforming businesses through innovative technology solutions*
