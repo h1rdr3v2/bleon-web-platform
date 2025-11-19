@@ -1,15 +1,10 @@
 "use client"
 
-import { useScrollDirection } from "@/hooks/useScrollDirection"
 import CardNav from "../CardNav"
+import { useScrollDirection } from "@/hooks/useScrollDirection"
 
 const Navbar = () => {
-	// Use the scroll direction hook with hero height (min-h-screen = 100vh)
-	// Assuming hero section is full viewport height
-	const isVisible = useScrollDirection({
-		threshold: 10,
-		heroHeight: typeof window !== "undefined" ? window.innerHeight : 800,
-	})
+	const isVisible = useScrollDirection()
 
 	const items = [
 		{
@@ -64,10 +59,9 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`fixed top-0 left-0 right-0 transition-transform duration-300 ease-in-out ${
-				isVisible ? "translate-y-0" : "-translate-y-full"
+			className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
+				isVisible ? "translate-y-0" : "-translate-y-[200%]"
 			}`}
-			style={{ zIndex: 100 }}
 		>
 			<CardNav
 				logo="/logos/logo_no_bg.png"

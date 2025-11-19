@@ -7,7 +7,7 @@ import AnimatedWrapper from "../AnimatedWrapper"
 
 const Hero = () => {
 	return (
-		<section className="relative min-h-screen flex items-center justify-center pt-16">
+		<section className="relative min-h-screen flex items-center justify-center pt-24 md:pt-32">
 			<div className="absolute inset-0 w-full h-full">
 				<Silk
 					speed={5}
