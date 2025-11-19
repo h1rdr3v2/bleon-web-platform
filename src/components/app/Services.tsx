@@ -14,7 +14,7 @@ import {
 	Book,
 } from "lucide-react"
 import Link from "next/link"
-import AnimatedWrapper from "./AnimatedWrapper"
+import AnimatedWrapper from "../AnimatedWrapper"
 
 const Services = () => {
 	const services = [

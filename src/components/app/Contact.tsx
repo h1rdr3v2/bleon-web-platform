@@ -2,7 +2,7 @@
 
 import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react'
 import { useState } from 'react'
-import AnimatedWrapper from './AnimatedWrapper'
+import AnimatedWrapper from '../AnimatedWrapper'
 
 const Contact = () => {
   const [formData, setFormData] = useState({

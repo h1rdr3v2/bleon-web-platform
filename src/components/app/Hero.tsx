@@ -1,9 +1,9 @@
 "use client"
 
-import Silk from "./Silk"
-import { ArrowRight } from "lucide-react"
+import Silk from "../Silk"
 import Link from "next/link"
-import AnimatedWrapper from "./AnimatedWrapper"
+import { ArrowRight } from "lucide-react"
+import AnimatedWrapper from "../AnimatedWrapper"
 
 const Hero = () => {
 	return (

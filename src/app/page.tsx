@@ -1,9 +1,9 @@
-import Hero from '@/components/Hero'
-import About from '@/components/About'
-import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
-import Contact from '@/components/Contact'
-import Services from '@/components/Services'
+import Hero from '@/components/app/Hero'
+import About from '@/components/app/About'
+import Footer from '@/components/app/Footer'
+import Navbar from '@/components/app/Navbar'
+import Contact from '@/components/app/Contact'
+import Services from '@/components/app/Services'
 
 export default function Home() {
   return (

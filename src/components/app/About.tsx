@@ -1,7 +1,7 @@
 'use client'
 
 import { CheckCircle, Target, Users, Zap } from 'lucide-react'
-import AnimatedWrapper from './AnimatedWrapper'
+import AnimatedWrapper from '../AnimatedWrapper'
 
 const About = () => {
   const values = [
