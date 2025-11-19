@@ -1,11 +1,11 @@
+import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bleon Co Ltd - Technology Solutions & Innovation',
+  title: 'Bleon Co - Technology Solutions & Innovation',
   description: 'Bleon Co Ltd is a leading technology company providing innovative solutions, VTU services, and digital transformation services. Based in Umuahia, Abia State, Nigeria.',
   keywords: 'technology, VTU services, digital solutions, innovation, Nigeria, Bleon',
   authors: [{ name: 'Bleon Co Ltd' }],
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     apple: '/logo.png',
   },
   openGraph: {
-    title: 'Bleon Co Ltd - Technology Solutions & Innovation',
+    title: 'Bleon Co - Technology Solutions & Innovation',
     description: 'Leading technology company providing innovative solutions and VTU services',
     url: 'https://bleon.co',
     siteName: 'Bleon Co Ltd',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bleon Co Ltd - Technology Solutions & Innovation',
+    title: 'Bleon Co - Technology Solutions & Innovation',
     description: 'Leading technology company providing innovative solutions and VTU services',
     images: ['/logo_no_bg.png'],
   },
